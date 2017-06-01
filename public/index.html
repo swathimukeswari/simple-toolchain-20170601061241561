@@ -1,24 +1,15 @@
 <!DOCTYPE html>
 <html>
+<script src="/node_modules/angular/angular.min.js"></script>
+<body>
 
-  <head>
-    <title>Hello World</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="stylesheets/style.css">
-  </head>
+<div ng-app="">
+ 
+<p>Input something in the input box:</p>
+<p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
+<h1>Hello {{name}}</h1>
 
-  <body>
-    <table>
-      <tr>
-        <td style= "width:30%;">
-          <img class = "newappIcon" src="images/newapp-icon.png">
-        </td>
-        <td>
-          <h1>Hello world.. Welcome to bluemix deployment</h1>
-        </td>
-      </tr>
-    </table>
-  </body>
+</div>
 
+</body>
 </html>
